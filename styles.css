@@ -1,11 +1,15 @@
 *{
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
+
 img{
   width: 400px;
   height: 500px;
+  margin: 10px;
+  dispay:flex;
+  object-fit: cover;
 }
 article{
   display: inline-block;
@@ -14,11 +18,77 @@ article{
 .Pictures{
   display: flex;
   justify-content: center;
-  flex-wrap:wrap;
-  padding: 10px;
-  margin: 10px
+  flex-wrap: wrap;
+  margin: 0px auto;
 }
 
 h1{
-  margin: 10px
+  margin: 10px;
+  border: 2px solid #000000;
+  background-color: #FFFF;
+  font-size: 20px;
+  font-family: 'Barlow', sans-serif;
+  padding: 5px;
+}
+
+#Title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.topnav{
+  border: 2px solid #000000;
+  margin: 10px;
+  text-align: right;
+  font-size: 17px;
+  font-family:'Barlow', sans-serif
+}
+
+.topnav a:hover{
+  background-color:#ddd;
+  color: black
+}
+
+.home-photo {
+  width: 100%;
+  height: 500px
+}
+
+.gallerynav{
+  border: 2px solid #000000;
+  margin: 10px;
+  text-align: right;
+  font-size: 17px;
+  font-family: 'Barlow', sans-serif
+}
+
+.gallerynav a:hover{
+  background-color:#ddd;
+  color: black
+}
+
+h2{
+  text-align: center;
+}
+
+.Make-an-account{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  width: 600px;
+  height: 30px;
+  font-size: 20px
+}
+
+input[type="submit"]{
+  width: 600px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 25px;
+  border-color: black;
+  background-color: white;
+  color: black;
 }
